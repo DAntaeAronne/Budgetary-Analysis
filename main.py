@@ -55,7 +55,7 @@ for Dep in DepTot:
         DigCount += 1
 
     # Place $ at start of Funds
-    ConvFunds = "$" + ConvFunds
+    ConvFunds = "$" + ConvFunds + ".00"
     DepTot[Dep] = ConvFunds
 
 print(DepTot)
